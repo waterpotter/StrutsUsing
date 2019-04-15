@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+
+    <!-- 打印log信息 -->
+	<!-- <constant name="struts.DevMod" value="true"></constant> -->
+	<!-- 每次访问重新加载xml 不用重启服务器  上边那一项打开,这一项也随之打开,但不知道为何不起作用-->
+	<!-- <constant name="struts.configuration.xml.reload" value="true"></constant> -->
+	<!-- <constant name="struts.action.extension" value="do"></constant> -->
+	<package name="p2" extends="struts-default" namespace="/rs">
+		
+		
+	</package>
+	
+	
+	
+	
+</struts>	

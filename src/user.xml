@@ -12,7 +12,7 @@
 	<!-- <constant name="struts.action.extension" value="do"></constant> -->
 	<package name="p1" extends="struts-default" namespace="/user">
 		
-		<action name="showAction" class="com.power.using.ShowAction" method="ShowMessage">
+		<action name="showAction" class="com.power.using.action.ShowAction" method="ShowMessage">
 			<result name="success">/success.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
@@ -21,6 +21,7 @@
 			<result name="success">/success.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
+		
 		<action name="editUI" class="com.power.using.action.Demo2Action" method="editUI">
 			<result name="success">/success.jsp</result>
 			<result name="error">/error.jsp</result>
