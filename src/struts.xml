@@ -20,6 +20,7 @@
 	</package> -->
 	<include file="user.xml"></include>
 	<include file="requestservlet.xml"></include>
+	<include file="resultshow.xml"></include>
 	
 	
 	
