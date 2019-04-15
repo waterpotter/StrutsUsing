@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"  isELIgnored="false"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -21,6 +21,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-   	<a href="${pageContext.request.contextPath }/showaction">请点击</a>
+   	<a href="${pageContext.request.contextPath}/user/showAction">请点击</a><br/>
+   	<a href="${pageContext.request.contextPath}/user/addUI">添加UI</a><br/>
+   	<a href="${pageContext.request.contextPath}/user/editUI">编辑UI</a><br/>
   </body>
 </html>
