@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.DevMod" value="true"></constant>
+	<constant name="struts.action.extension" value="do"></constant>
+	<package name="p1" extends="struts-default" namespace="/customer">
+		
+		<action name="showaction" class="com.power.using.ShowAction" method="ShowMessage">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	
+	</package>
+	
+	
+	
+	
+</struts>	
